@@ -1,0 +1,50 @@
+body {
+    background-image: url('bg.png');
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.name {
+    text-align: center;
+}
+h1 {
+
+    margin-top: 50px;
+    color: black;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #562B08;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #C69749;
+}
+
+p#result {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+  
